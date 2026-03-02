@@ -1,0 +1,142 @@
+/* =====================
+   GLOBAL STYLES
+===================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+p {
+    color: #555;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* =====================
+   HERO SECTION
+===================== */
+#home {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: #fff;
+}
+
+#home p {
+    color: #eaeaea;
+}
+
+#home img {
+    max-height: 380px;
+}
+
+/* =====================
+   CARDS (PHONES & PRICING)
+===================== */
+.card {
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+/* =====================
+   PRICING SECTION
+===================== */
+#pricing h3 {
+    font-weight: 800;
+}
+
+/* =====================
+   CONTACT SECTION
+===================== */
+#contact {
+    background-color: #f8f9fa;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+    font-size: 0.9rem;
+}
+
+/* =====================
+   WHATSAPP FLOATING BUTTON
+===================== */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    #home {
+        text-align: center;
+    }
+
+    #home img {
+        margin-top: 30px;
+    }
+}
